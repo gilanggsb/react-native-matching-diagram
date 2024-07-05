@@ -1,17 +1,10 @@
-import { useState, useEffect } from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-matching-diagram';
+import { StyleSheet, View } from 'react-native';
+import { MatchingDiagramExample } from './MatchDiagramExample';
 
 export default function App() {
-  const [result, setResult] = useState<number | undefined>();
-
-  useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <MatchingDiagramExample />
     </View>
   );
 }
