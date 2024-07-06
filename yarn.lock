@@ -10995,15 +10995,20 @@ __metadata:
     babel-plugin-module-resolver: ^5.0.0
     react: 18.2.0
     react-native: 0.74.3
-    react-native-matching-diagram: "link:../"
+    react-native-matching-diagram: "github:gilanggsb/react-native-matching-diagram"
   languageName: unknown
   linkType: soft
 
-"react-native-matching-diagram@link:../::locator=react-native-matching-diagram-example%40workspace%3Aexample":
-  version: 0.0.0-use.local
-  resolution: "react-native-matching-diagram@link:../::locator=react-native-matching-diagram-example%40workspace%3Aexample"
+"react-native-matching-diagram@github:gilanggsb/react-native-matching-diagram":
+  version: 0.1.0
+  resolution: "react-native-matching-diagram@https://github.com/gilanggsb/react-native-matching-diagram.git#commit=493b6a5fdb6e194efc2e1a121472aaa1d98da56e"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+    react-native-svg: ^13.8.0
+  checksum: beb25bfb8338cd95c9c516eb4ad1cc2aed9f637c21f24bdfce5de0bd5dc24d33a4d6eb796f0a5deb6e3ae750e976b4121bc0624535fad4e0798e846d295ed4c2
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "react-native-matching-diagram@workspace:.":
   version: 0.0.0-use.local
